@@ -6,7 +6,7 @@ import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
+//@Configuration // Replacing with ProjectConfig
 public class WebAuthorizationConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {

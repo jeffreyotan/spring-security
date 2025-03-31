@@ -8,7 +8,7 @@ import org.springframework.security.crypto.password.NoOpPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-@Configuration
+//@Configuration // Replacing with ProjectConfig
 public class UserManagementConfig {
     
     @Bean
